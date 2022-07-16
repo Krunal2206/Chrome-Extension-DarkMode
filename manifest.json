@@ -1,0 +1,30 @@
+{
+    "name": "Darkmode.io",
+    "description": "Go from Dark Mode to Light Mode and Vice Versa.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Darkmode.io",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/half-moon16.png",
+            "32": "/images/half-moon32.png",
+            "64": "/images/half-moon64.png",
+            "128": "/images/half-moon128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/half-moon16.png",
+        "32": "/images/half-moon32.png",
+        "64": "/images/half-moon64.png",
+        "128": "/images/half-moon128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ]
+}
